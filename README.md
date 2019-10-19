@@ -1,6 +1,6 @@
 # PuzzleWise
 
-## Congressional App Challenge Project
+## Congressional App Challenge
 
 ###### 1. Explain the app’s purpose in ONE sentence (140 characters max).
 
