@@ -2,7 +2,7 @@
 
 ## Congressional App Challenge Project
 
-### 1. Explain the app’s purpose in ONE sentence (140 characters max).
+#### 1. Explain the app’s purpose in ONE sentence (140 characters max).
 
 ### 2. What inspired you to create this app?(200 characters max)
 
