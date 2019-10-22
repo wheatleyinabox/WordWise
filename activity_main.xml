@@ -22,13 +22,14 @@
                 android:layout_height="20sp" />
 
             <TextView
+                android:id="@+id/main_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#dfcdc3"
                 android:layout_gravity="center"
                 android:fontFamily="sans-serif-smallcaps"
                 android:text="Puzzle Wise"
                 android:textAlignment="center"
+                android:textColor="#dfcdc3"
                 android:textSize="50dp" />
 
             <Space
@@ -36,7 +37,7 @@
                 android:layout_height="20sp" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/main_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -46,20 +47,22 @@
                 android:textAlignment="center"
                 android:textSize="25dp" />
 
-            <Space
+            <ImageView
+                android:id="@+id/edward_wiseman"
                 android:layout_width="match_parent"
-                android:layout_height="100sp" />
+                android:layout_height="435sp"
+                app:srcCompat="@drawable/edwardwiseman" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/startButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#5F6769"
-                android:textStyle="bold"
-                android:textSize="20dp"
-                android:textColor="#719192"
                 android:fontFamily="sans-serif-smallcaps"
-                android:text="Start!" />
+                android:text="Start!"
+                android:textColor="#dfcdc3"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>
