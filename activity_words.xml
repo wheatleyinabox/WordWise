@@ -45,15 +45,67 @@
                 android:layout_width="match_parent"
                 android:layout_height="30sp" />
 
+
+
             <EditText
-                android:id="@+id/input"
+                android:id="@+id/input1"
                 android:layout_width="300sp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="#719192"
                 android:ems="10"
-                android:inputType="text"
-                android:textColor="#719192" />
+                android:hint="Word 1"
+                android:inputType="textPersonName"
+                android:textColor="#719192"
+                android:textColorHint="#719192" />
+
+            <EditText
+                android:id="@+id/input2"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#719192"
+                android:ems="10"
+                android:hint="Word 2"
+                android:inputType="textPersonName"
+                android:textColor="#719192"
+                android:textColorHint="#719192" />
+
+            <EditText
+                android:id="@+id/input3"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#719192"
+                android:ems="10"
+                android:hint="Word 3"
+                android:inputType="textPersonName"
+                android:textColor="#719192"
+                android:textColorHint="#719192" />
+
+            <EditText
+                android:id="@+id/input4"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#719192"
+                android:ems="10"
+                android:hint="Word 4"
+                android:inputType="textPersonName"
+                android:textColor="#719192"
+                android:textColorHint="#719192" />
+
+            <EditText
+                android:id="@+id/input5"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#719192"
+                android:ems="10"
+                android:hint="Word 5"
+                android:inputType="textPersonName"
+                android:textColor="#719192"
+                android:textColorHint="#719192" />
 
             <Space
                 android:layout_width="match_parent"
@@ -88,8 +140,16 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-smallcaps"
                 android:textAlignment="center"
-                android:textColor="#dfcdc3"
+                android:textColor="#719192"
                 android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/nextBtn"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#5F6769"
+                android:text="Continue" />
 
         </LinearLayout>
     </ScrollView>
