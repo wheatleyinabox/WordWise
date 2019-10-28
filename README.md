@@ -1,4 +1,4 @@
-# PuzzleWise
+# FlashWise
 
 ## Congressional App Challenge
 
