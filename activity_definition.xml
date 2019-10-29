@@ -53,6 +53,123 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <EditText
+                android:id="@+id/input10"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#719192"
+                android:ems="10"
+                android:hint="Def 1"
+                android:inputType="textPersonName"
+                android:textColor="#719192"
+                android:textColorHint="#719192" />
+
+            <EditText
+                android:id="@+id/input20"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#719192"
+                android:ems="10"
+                android:hint="Def 2"
+                android:inputType="textPersonName"
+                android:textColor="#719192"
+                android:textColorHint="#719192" />
+
+            <EditText
+                android:id="@+id/input30"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#719192"
+                android:ems="10"
+                android:hint="Def 3"
+                android:inputType="textPersonName"
+                android:textColor="#719192"
+                android:textColorHint="#719192" />
+
+            <EditText
+                android:id="@+id/input40"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#719192"
+                android:ems="10"
+                android:hint="Def 4"
+                android:inputType="textPersonName"
+                android:textColor="#719192"
+                android:textColorHint="#719192" />
+
+            <EditText
+                android:id="@+id/input50"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#719192"
+                android:ems="10"
+                android:hint="Def 5"
+                android:inputType="textPersonName"
+                android:textColor="#719192"
+                android:textColorHint="#719192" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <Button
+                android:id="@+id/add_def"
+                android:layout_height="wrap_content"
+                android:layout_width="200sp"
+                android:layout_gravity="center"
+                android:textColor="#dfcdc3"
+                android:background="#5F6769"
+                android:text="Add" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <TextView
+                android:id="@+id/def_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Your List Of Words and Definitions:"
+                android:textAlignment="center"
+                android:textColor="#dfcdc3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cardList_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAlignment="center"
+                android:textColor="#719192"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
+            <Button
+                android:id="@+id/add_def2"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#5F6769"
+                android:text="Create Cards"
+                android:textColor="#dfcdc3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20sp" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
