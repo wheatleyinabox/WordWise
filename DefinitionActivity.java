@@ -12,8 +12,8 @@ public class DefinitionActivity extends AppCompatActivity {
 
     TextView reminderList, cardList_result;
     Button add_def;
-    String[] def = new String[5];
     String[] cardList = new String[10];
+    String[] def = new String[5];
     EditText input10, input20, input30, input40, input50;
     String def1, def2, def3, def4, def5;
 
@@ -25,6 +25,7 @@ public class DefinitionActivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         final String[] list = extras.getStringArray("list");
 
+        cardList_result = findViewById(R.id.cardList_result);
         reminderList = findViewById(R.id.reminderList);
         reminderList.setText(list[0] + "\n" + list[1] + "\n" + list[2] + "\n" + list[3] + "\n" + list[4]);
 
@@ -61,11 +62,9 @@ public class DefinitionActivity extends AppCompatActivity {
                 cardList[7] = def[3];
                 cardList[8] = list[4];
                 cardList[9] = def[4];
+
+                cardList_result.setText(cardList[0] + "\n" + cardList[1] + "\n" + cardList[2] + "\n" + cardList[3] + "\n" + cardList[4] + "\n" + cardList[5] + "\n" + cardList[6] + "\n" + cardList[7] + "\n" + cardList[8] + "\n" + cardList[9]);
             }
         });
-
-        cardList_result = findViewById(R.id.cardList_result);
-        cardList_result.setText(cardList[0] + "\n" + cardList[1] + "\n" + cardList[2] + "\n" + cardList[3] + "\n" + cardList[4] + "\n" + cardList[5] + "\n" + cardList[6] + "\n" + cardList[7] + "\n" + cardList[8] + "\n" + cardList[9]);
-
     }
 }
