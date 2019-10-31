@@ -2,6 +2,7 @@ package com.example.puzzlewise;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +12,7 @@ import android.widget.TextView;
 public class DefinitionActivity extends AppCompatActivity {
 
     TextView reminderList, cardList_result;
-    Button add_def;
+    Button add_def, def_next;
     String[] cardList = new String[10];
     String[] def = new String[5];
     EditText input10, input20, input30, input40, input50;
@@ -25,10 +26,10 @@ public class DefinitionActivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         final String[] list = extras.getStringArray("list");
 
+        def_next = findViewById(R.id.def_next);
         cardList_result = findViewById(R.id.cardList_result);
         reminderList = findViewById(R.id.reminderList);
         reminderList.setText(list[0] + "\n" + list[1] + "\n" + list[2] + "\n" + list[3] + "\n" + list[4]);
-
         input10 = findViewById(R.id.input10);
         input20 = findViewById(R.id.input20);
         input30 = findViewById(R.id.input30);
@@ -66,5 +67,19 @@ public class DefinitionActivity extends AppCompatActivity {
                 cardList_result.setText(cardList[0] + "\n" + cardList[1] + "\n" + cardList[2] + "\n" + cardList[3] + "\n" + cardList[4] + "\n" + cardList[5] + "\n" + cardList[6] + "\n" + cardList[7] + "\n" + cardList[8] + "\n" + cardList[9]);
             }
         });
+
+        def_next.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view)
+            {
+                openCardActivity();
+            }
+        });
+    }
+
+    public void openCardActivity()
+    {
+        Intent intent = new Intent(this, CardActivity.class);
+        intent.putExtra("cardList", cardList);
+        startActivity(intent);
     }
 }
