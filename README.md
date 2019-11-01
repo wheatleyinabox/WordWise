@@ -4,7 +4,7 @@
 
 ###### 1. Explain the app’s purpose in ONE sentence (140 characters max).
 
-> Response
+> To assist students in studying terms, ideas, or concepts. 
 
 ###### 2. What inspired you to create this app? (200 characters max)
 
