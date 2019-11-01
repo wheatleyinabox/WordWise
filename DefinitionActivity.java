@@ -26,15 +26,15 @@ public class DefinitionActivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         final String[] list = extras.getStringArray("list");
 
-        def_next = findViewById(R.id.def_next);
         cardList_result = findViewById(R.id.cardList_result);
         reminderList = findViewById(R.id.reminderList);
         reminderList.setText(list[0] + "\n" + list[1] + "\n" + list[2] + "\n" + list[3] + "\n" + list[4]);
-        input10 = findViewById(R.id.input10);
-        input20 = findViewById(R.id.input20);
-        input30 = findViewById(R.id.input30);
-        input40 = findViewById(R.id.input40);
-        input50 = findViewById(R.id.input50);
+
+        input10 = findViewById(R.id.input01);
+        input20 = findViewById(R.id.input02);
+        input30 = findViewById(R.id.input03);
+        input40 = findViewById(R.id.input04);
+        input50 = findViewById(R.id.input05);
 
         add_def = findViewById(R.id.add_def);
         add_def.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +68,7 @@ public class DefinitionActivity extends AppCompatActivity {
             }
         });
 
+        def_next = findViewById(R.id.def_next);
         def_next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view)
             {
@@ -76,10 +77,10 @@ public class DefinitionActivity extends AppCompatActivity {
         });
     }
 
-    public void openCardActivity()
-    {
-        Intent intent = new Intent(this, CardActivity.class);
-        intent.putExtra("cardList", cardList);
-        startActivity(intent);
-    }
+        public void openCardActivity()
+        {
+            Intent intent = new Intent(this, CardActivity.class);
+            intent.putExtra("cardList", cardList);
+            startActivity(intent);
+        }
 }
