@@ -23,22 +23,43 @@
             <Button
                 android:id="@+id/card"
                 android:layout_width="match_parent"
-                android:layout_height="300sp"
-                android:textColor="#719192"
-                android:background="#5f6769" />
+                android:layout_height="350sp"
+                android:background="#5f6769"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="50sp"
+                android:textColor="#719192" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="200sp" />
+                android:layout_height="100sp" />
 
             <Button
-                android:id="@+id/resetButton"
+                android:id="@+id/reset"
+                android:fontFamily="sans-serif-smallcaps"
                 android:layout_width="100sp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="#5F6769"
                 android:textColor="#dfcdc3"
                 android:text="Reset" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25sp" />
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="400sp"
+                android:layout_height="wrap_content"
+                android:background="#5F6769"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Return to Home"
+                android:layout_gravity="center"
+                android:textColor="#dfcdc3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25sp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
