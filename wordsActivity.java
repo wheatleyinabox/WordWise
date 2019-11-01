@@ -13,7 +13,7 @@ public class wordsActivity extends AppCompatActivity {
 
     String[] list = new String[5];
     TextView wordList;
-    Button addBtn, puzzle_start;
+    Button addBtn, def_start;
     String word1, word2, word3, word4, word5;
     EditText input1, input2, input3, input4, input5;
 
@@ -30,7 +30,7 @@ public class wordsActivity extends AppCompatActivity {
         input4 = findViewById(R.id.input4);
         input5 = findViewById(R.id.input5);
 
-        addBtn = (Button) findViewById(R.id.addBtn);
+        addBtn = findViewById(R.id.addBtn);
         addBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
@@ -49,8 +49,8 @@ public class wordsActivity extends AppCompatActivity {
             }
         });
 
-        puzzle_start = findViewById(R.id.puzzle_start);
-        puzzle_start.setOnClickListener(new View.OnClickListener() {
+        def_start = findViewById(R.id.nextBtn);
+        def_start.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view)
             {
                 openDefinitionActivity();
