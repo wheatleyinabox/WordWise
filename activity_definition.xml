@@ -55,12 +55,13 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="20sp" />
+                android:layout_height="30sp" />
 
             <EditText
-                android:id="@+id/input10"
+                android:id="@+id/input01"
                 android:layout_width="300sp"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
                 android:layout_gravity="center"
                 android:backgroundTint="#719192"
                 android:ems="10"
@@ -70,7 +71,8 @@
                 android:textColorHint="#719192" />
 
             <EditText
-                android:id="@+id/input20"
+                android:id="@+id/input02"
+                android:fontFamily="sans-serif-smallcaps"
                 android:layout_width="300sp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -82,10 +84,11 @@
                 android:textColorHint="#719192" />
 
             <EditText
-                android:id="@+id/input30"
+                android:id="@+id/input03"
                 android:layout_width="300sp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
                 android:backgroundTint="#719192"
                 android:ems="10"
                 android:hint="Def 3"
@@ -94,10 +97,11 @@
                 android:textColorHint="#719192" />
 
             <EditText
-                android:id="@+id/input40"
+                android:id="@+id/input04"
                 android:layout_width="300sp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
                 android:backgroundTint="#719192"
                 android:ems="10"
                 android:hint="Def 4"
@@ -106,12 +110,13 @@
                 android:textColorHint="#719192" />
 
             <EditText
-                android:id="@+id/input50"
+                android:id="@+id/input05"
                 android:layout_width="300sp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="#719192"
                 android:ems="10"
+                android:fontFamily="sans-serif-smallcaps"
                 android:hint="Def 5"
                 android:inputType="textPersonName"
                 android:textColor="#719192"
@@ -119,27 +124,28 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="20sp" />
+                android:layout_height="30sp" />
 
             <Button
                 android:id="@+id/add_def"
+                android:layout_width="300sp"
                 android:layout_height="wrap_content"
-                android:layout_width="200sp"
                 android:layout_gravity="center"
-                android:textColor="#dfcdc3"
                 android:background="#5F6769"
-                android:text="Add" />
+                android:text="Add"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#DFCDC3" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="20sp" />
+                android:layout_height="30sp" />
 
             <TextView
-                android:id="@+id/def_text"
+                android:id="@+id/def_moreText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-smallcaps"
-                android:text="Your List Of Words and Definitions:"
+                android:text="Your List Of Definitions and Words:"
                 android:textAlignment="center"
                 android:textColor="#dfcdc3"
                 android:textSize="20sp" />
@@ -155,20 +161,21 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="20sp" />
+                android:layout_height="30sp" />
 
             <Button
                 android:id="@+id/def_next"
-                android:layout_width="200sp"
+                android:layout_width="300sp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
                 android:background="#5F6769"
                 android:text="Create Cards"
-                android:textColor="#dfcdc3" />
+                android:textColor="#DFCDC3" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="20sp" />
+                android:layout_height="30sp" />
 
         </LinearLayout>
     </ScrollView>
