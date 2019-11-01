@@ -31,16 +31,6 @@
                 android:textColor="#dfcdc3"
                 android:textSize="40sp" />
 
-            <TextView
-                android:id="@+id/words_moreText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-smallcaps"
-                android:text="Add Up To 5 Words"
-                android:textAlignment="center"
-                android:textColor="#dfcdc3"
-                android:textSize="20sp" />
-
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="30sp" />
@@ -53,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="#719192"
+                android:fontFamily="sans-serif-smallcaps"
                 android:ems="10"
                 android:hint="Word 1"
                 android:inputType="textPersonName"
@@ -62,6 +53,7 @@
             <EditText
                 android:id="@+id/input2"
                 android:layout_width="300sp"
+                android:fontFamily="sans-serif-smallcaps"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="#719192"
@@ -77,6 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="#719192"
+                android:fontFamily="sans-serif-smallcaps"
                 android:ems="10"
                 android:hint="Word 3"
                 android:inputType="textPersonName"
@@ -89,6 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="#719192"
+                android:fontFamily="sans-serif-smallcaps"
                 android:ems="10"
                 android:hint="Word 4"
                 android:inputType="textPersonName"
@@ -102,6 +96,7 @@
                 android:layout_gravity="center"
                 android:backgroundTint="#719192"
                 android:ems="10"
+                android:fontFamily="sans-serif-smallcaps"
                 android:hint="Word 5"
                 android:inputType="textPersonName"
                 android:textColor="#719192"
@@ -118,7 +113,8 @@
                 android:layout_gravity="center"
                 android:background="#5F6769"
                 android:fontFamily="sans-serif-smallcaps"
-                android:text="Add" />
+                android:text="Add"
+                android:textColor="#DFCDC3" />
 
             <Space
                 android:layout_width="match_parent"
@@ -143,13 +139,23 @@
                 android:textColor="#719192"
                 android:textSize="20sp" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30sp" />
+
             <Button
                 android:id="@+id/nextBtn"
                 android:layout_width="200sp"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
                 android:layout_gravity="center"
                 android:background="#5F6769"
-                android:text="Continue" />
+                android:text="Continue"
+                android:textColor="#DFCDC3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30sp" />
 
         </LinearLayout>
     </ScrollView>
