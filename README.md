@@ -1,4 +1,4 @@
-# FlipWise
+# WordWise
 
 ## Congressional App Challenge
 
