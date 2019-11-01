@@ -1,4 +1,4 @@
-package com.example.puzzlewise;
+package com.example.wordwise;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class wordsActivity extends AppCompatActivity {
+public class WordActivity extends AppCompatActivity {
 
     String[] list = new String[5];
     TextView wordList;
