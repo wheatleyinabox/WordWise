@@ -7,6 +7,8 @@
 
 Development in **Android Studio**
 
+
+
 ## Congressional App Challenge
 
 ###### 1. Explain the app’s purpose in ONE sentence (140 characters max).
