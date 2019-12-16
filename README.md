@@ -1,5 +1,12 @@
 # WordWise
 
+### Advanced Java Topics With Android Studio
+####10/04/2019
+
+> The Congressional App Challenge is a Congress authorized competition, where districts in the states take part in creating or presenting a technological artifacts. Your submission will include this, a demostration video, and a few short answer responses within the application.
+
+Development in **Android Studio**
+
 ## Congressional App Challenge
 
 ###### 1. Explain the app’s purpose in ONE sentence (140 characters max).
